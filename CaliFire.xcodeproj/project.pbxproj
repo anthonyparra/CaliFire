@@ -15,6 +15,7 @@
 		0D9156A7214780CC00DB9A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D9156A5214780CB00DB9A28 /* Main.storyboard */; };
 		0D9156A9214783D700DB9A28 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9156A8214783D700DB9A28 /* RootPageViewController.swift */; };
 		0DF953DE2170F84A004B80E1 /* UpdatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF953DD2170F84A004B80E1 /* UpdatesTableViewController.swift */; };
+		8CAA319922611735004D03A8 /* PageViewController in Resources */ = {isa = PBXBuildFile; fileRef = 8CAA319822611735004D03A8 /* PageViewController */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0D9156A6214780CB00DB9A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../PageViewController/PageViewController/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D9156A8214783D700DB9A28 /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 		0DF953DD2170F84A004B80E1 /* UpdatesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatesTableViewController.swift; sourceTree = "<group>"; };
+		8CAA319822611735004D03A8 /* PageViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PageViewController; path = ../PageViewController; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		0D91567B21477F1B00DB9A28 = {
 			isa = PBXGroup;
 			children = (
+				8CAA319822611735004D03A8 /* PageViewController */,
 				0D91568621477F1C00DB9A28 /* CaliFire */,
 				0D91568521477F1C00DB9A28 /* Products */,
 				0D91569921477F4E00DB9A28 /* Frameworks */,
@@ -116,6 +119,7 @@
 				TargetAttributes = {
 					0D91568321477F1C00DB9A28 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 0;
@@ -155,6 +159,7 @@
 			files = (
 				0D9156A7214780CC00DB9A28 /* Main.storyboard in Resources */,
 				0D91569221477F2900DB9A28 /* LaunchScreen.storyboard in Resources */,
+				8CAA319922611735004D03A8 /* PageViewController in Resources */,
 				0D91568F21477F2900DB9A28 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,7 +329,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.parraindustries.CaliFire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -344,7 +349,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.parraindustries.CaliFire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
